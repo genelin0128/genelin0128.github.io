@@ -1,0 +1,30 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: linear-gradient(to bottom, #E31936, #0865AD);
+    height: 100vh;
+    width: 100vw;
+}
+
+.costco_img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 30%;
+}
+
+.text {
+    text-align: left;
+    padding: 100px;
+    color: white;
+    font-family: Monaco, sans-serif;
+    font-size: 150%;
+}
