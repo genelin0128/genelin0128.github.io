@@ -1,0 +1,35 @@
+/* Set the HTML to have no overflow */
+html {
+    overflow: hidden;
+}
+
+/* Set the body to have no overflow, and no margin or padding */
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background to be a linear gradient, with a fixed height and width */
+.background {
+    background: linear-gradient(to bottom, #E31936, #0865AD);
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Set the Costco image to be centered, with a maximum width of 30% */
+.costco_img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 30%;
+}
+
+/* Set the text to be left-aligned, with padding, white color, and a specific font and size */
+.text {
+    text-align: left;
+    padding: 100px;
+    color: white;
+    font-family: Monaco, sans-serif;
+    font-size: 150%;
+}
