@@ -1,0 +1,1087 @@
+body {
+  overflow-x: hidden; }
+
+#send_codeModal {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left; }
+  #send_codeModal .box_open {
+    float: right;
+    width: 100%;
+    margin-bottom: 10px; }
+    #send_codeModal .box_open .t {
+      width: 250px;
+      float: right; }
+      #send_codeModal .box_open .t.eng {
+        width: 365px;
+        float: right; }
+      #send_codeModal .box_open .t span.order_n {
+        float: left;
+        padding-top: 10px;
+        color: #008a49;
+        padding-right: 5px;
+        padding-left: 5px; }
+    #send_codeModal .box_open p.t_p {
+      width: 100%;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 600;
+      color: #eb6604; }
+  #send_codeModal .container {
+    float: left;
+    width: 100px; }
+    #send_codeModal .container.engt {
+      width: 150px; }
+    #send_codeModal .container .rest-time {
+      width: 100%;
+      text-align: center;
+      background: #e5f2e7;
+      padding: 10px;
+      font-weight: 600;
+      border-radius: 5px; }
+    #send_codeModal .container .rest-time_eng {
+      width: 100%;
+      text-align: center;
+      background: #e5f2e7;
+      padding: 10px;
+      font-weight: 600;
+      border-radius: 5px; }
+
+.box_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  padding: 10px 40px;
+  background: #fff;
+  margin-bottom: 25px; }
+  .box_frame .main_logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    min-height: 80px; }
+    .box_frame .main_logo img {
+      vertical-align: middle; }
+
+.btn_colorImportant {
+  color: #fff;
+  border: 1px solid #ffae72;
+  background: #ff9445;
+  background: -moz-linear-gradient(top, #e2670c 0%, #f06601 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2670c), color-stop(80%, #f06601));
+  background: -webkit-linear-gradient(top, #e2670c 0%, #f06601 80%);
+  background: -o-linear-gradient(top, #e2670c 0%, #f06601 80%);
+  background: -ms-linear-gradient(top, #e2670c 0%, #f06601 80%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2670c), color-stop(80%, #f06601));
+  background: linear-gradient(to bottom, #e2670c 0%, #f06601 80%);
+  -moz-box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+  -webkit-box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+  box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5); }
+
+header#header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left;
+  display: block; }
+  header#header #site-menu {
+    width: 100%;
+    display: block;
+    background: #11a847;
+    height: 6px; }
+  header#header #info-menu {
+    background: #fff;
+    border-bottom: 6px solid  #fff200; }
+    header#header #info-menu .center {
+      padding-top: 12px;
+      height: 55px;
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+      margin-bottom: 30px; }
+      header#header #info-menu .center .logo {
+        left: 0;
+        position: absolute;
+        top: 15px; }
+      header#header #info-menu .center .index_banner {
+        position: absolute;
+        width: 90px;
+        height: 51px;
+        top: 20px;
+        right: 150px;
+        margin-right: 0;
+        margin-top: 0;
+        overflow: hidden; }
+      header#header #info-menu .center .index_banner_text {
+        position: absolute;
+        width: 115px;
+        height: 60px;
+        top: 15px;
+        right: 25px;
+        margin-right: 0;
+        margin-top: 0; }
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    /*background: #eef6ee;  註解起來讓背景色是灰色  */
+    min-height: 780px;
+}
+  .wrapper .in {
+    width: 960px;
+    margin: 0 auto; }
+    .wrapper .in .box_frame {
+      position: relative;
+      width: 100%;
+      height: auto;
+      float: left;
+      margin-top: 10px;
+      border: 1px solid #00a94f;
+      padding: 10px 40px;
+      background: #fff;
+      margin-bottom: 25px; }
+      .wrapper .in .box_frame .main_logo {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: left;
+        text-align: center;
+        min-height: 80px; }
+        .wrapper .in .box_frame .main_logo img {
+          vertical-align: middle; }
+      .wrapper .in .box_frame .box_title {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: left;
+        border: 1px solid #00a94f;
+        border-radius: 6px;
+        margin-bottom: 10px; }
+        .wrapper .in .box_frame .box_title .title {
+          position: relative;
+          width: 100%;
+          height: 35px;
+          float: left;
+          border-radius: 6px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          padding: 5px 25px;
+          background: #f2fcf2;
+          background: -moz-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+          background: -webkit-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+          background: -webkit-gradient(linear, left top, left bottom, from(#f2fcf2), to(#daebde));
+          background: -o-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+          background: linear-gradient(to bottom, #f2fcf2 0%, #daebde 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fcf2', endColorstr='#daebde',GradientType=0 ); }
+          .wrapper .in .box_frame .box_title .title h1 {
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 600;
+            color: #00a94f; }
+        .wrapper .in .box_frame .box_title .order_t {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          padding: 5px 25px; }
+          .wrapper .in .box_frame .box_title .order_t p {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: normal;
+            color: #333333; }
+            .wrapper .in .box_frame .box_title .order_t p span {
+              font-size: 16px;
+              padding-left: 15px;
+              font-weight: 500; }
+          .wrapper .in .box_frame .box_title .order_t .img {
+            text-align: center;
+            padding: 10px 60px 0; }
+            .wrapper .in .box_frame .box_title .order_t .img .c_o {
+              width: 32%;
+              margin: 0px 0.5%;
+              float: left; }
+              .wrapper .in .box_frame .box_title .order_t .img .c_o .img_in {
+                min-height: 80px;
+                line-height: 80px;
+                text-align: center; }
+                .wrapper .in .box_frame .box_title .order_t .img .c_o .img_in img {
+                  vertical-align: middle;
+                  max-height: 120px;
+                  max-width: 100%; }
+              .wrapper .in .box_frame .box_title .order_t .img .c_o a {
+                font-size: 14px;
+                line-height: 25px;
+                font-weight: normal;
+                color: #009043;
+                text-align: center;
+                display: block; }
+        .wrapper .in .box_frame .box_title .card_t {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          padding: 28px 25px; }
+          .wrapper .in .box_frame .box_title .card_t .box_input {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 0 0 16px; }
+            .wrapper .in .box_frame .box_title .card_t .box_input .label_title {
+              position: relative;
+              width: 100px;
+              height: auto;
+              float: left;
+              font-size: 16px;
+              line-height: 30px;
+              font-weight: normal;
+              color: #333333; }
+            .wrapper .in .box_frame .box_title .card_t .box_input .grid100 {
+              position: relative;
+              width: 100%;
+              height: 30px;
+              float: left;
+              float: none; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label {
+                position: relative;
+                display: inline-block; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label .uniform-input {
+                  width: 250px;
+                  color: #313131;
+                  height: 30px;
+                  border: solid 1px #c0c0c0;
+                  padding: 0px 10px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 30px;
+                  font-weight: normal;
+                  color: #333333; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :focus, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :active {
+                  opacity: .8;
+                  border: 1px solid #00a94f;
+                  background: #f5f5f6; }
+            .wrapper .in .box_frame .box_title .card_t .box_input .grid80 {
+              position: relative;
+              width: 80%;
+              height: 30px;
+              float: left; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label {
+                position: relative;
+                display: inline-block; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label .uniform-input {
+                  width: 100px;
+                  color: #313131;
+                  height: 30px;
+                  border: solid 1px #c0c0c0;
+                  padding: 0px 2px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 30px;
+                  font-weight: normal;
+                  color: #333333; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label::after {
+                  content: "-";
+                  color: #ccc; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label:last-child::after {
+                  content: " "; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :focus, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :active {
+                  opacity: .8;
+                  border: 1px solid #00a94f;
+                  background: #f5f5f6; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style {
+                width: 115px;
+                display: inline-block; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style select {
+                  width: 116px;
+                  height: 30px;
+                  color: #313131;
+                  position: relative;
+                  display: inline-block;
+                  font-size: 16px;
+                  line-height: 30px;
+                  font-weight: normal;
+                  color: #333333;
+                  text-align: center;
+                  padding: 0px 10px; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style:nth-child(2)::after {
+                  content: " "; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style :focus {
+                  opacity: .8;
+                  border: 1px solid #00a94f;
+                  background: #f5f5f6; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check {
+                position: relative;
+                display: inline-block; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check .check_num {
+                  width: 116px;
+                  color: #313131;
+                  height: 30px;
+                  border: solid 1px #c0c0c0;
+                  padding: 0px 15px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 30px;
+                  font-weight: normal;
+                  color: #333333;
+                  margin-right: 20px; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check .uniform-input {
+                  width: 116px;
+                  color: #313131;
+                  height: 30px;
+                  border: solid 1px #c0c0c0;
+                  padding: 0px 5px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 30px;
+                  font-weight: normal;
+                  color: #333333;
+                  margin-right: 20px; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check::after {
+                  content: " "; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :focus {
+                  opacity: .8;
+                  border: 1px solid #00a94f;
+                  background: #f5f5f6; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year {
+                display: inline-block;
+                font-size: 14px;
+                line-height: 40px;
+                font-weight: normal;
+                color: #575656; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year span {
+                  padding-left: 10px; }
+          .wrapper .in .box_frame .box_title .card_t .card {
+            position: absolute;
+            width: 250px;
+            height: 220px;
+            top: 5px;
+            right: 20px;
+            margin-right: 0;
+            margin-top: 0; }
+            .wrapper .in .box_frame .box_title .card_t .card .img {
+              text-align: center;
+              display: none; }
+              .wrapper .in .box_frame .box_title .card_t .card .img.on {
+                display: block; }
+              .wrapper .in .box_frame .box_title .card_t .card .img .number {
+                position: absolute;
+                margin: 0 auto;
+                top: 95px;
+                left: 20px;
+                font-size: 18px;
+                color: #fff; }
+              .wrapper .in .box_frame .box_title .card_t .card .img .card-expiration-date {
+                position: absolute;
+                margin: 0 auto;
+                top: 135px;
+                left: 130px;
+                font-size: 18px;
+                color: #fff;
+                text-transform: capitalize; }
+            .wrapper .in .box_frame .box_title .card_t .card .img2 {
+              text-align: center;
+              display: none; }
+              .wrapper .in .box_frame .box_title .card_t .card .img2.on {
+                display: block; }
+              .wrapper .in .box_frame .box_title .card_t .card .img2 .ccv {
+                height: 36px;
+                top: 68px;
+                left: 90px;
+                position: absolute;
+                margin: 0 auto;
+                color: #000;
+                text-align: left; }
+                .wrapper .in .box_frame .box_title .card_t .card .img2 .ccv label {
+                  display: inline-block;
+                  color: #000; }
+                  .wrapper .in .box_frame .box_title .card_t .card .img2 .ccv label span {
+                    color: #000; }
+            .wrapper .in .box_frame .box_title .card_t .card p {
+              font-size: 14px;
+              line-height: 25px;
+              font-weight: normal;
+              color: #009043;
+              text-decoration: underline;
+              text-align: center;
+              cursor: pointer; }
+      .wrapper .in .box_frame .t_align_center {
+        text-align: center;
+        margin-bottom: 10px; }
+        .wrapper .in .box_frame .t_align_center .btn_l {
+          display: inline-block;
+          width: 170px;
+          margin-right: 20px;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px;
+          border-radius: 6px;
+          height: 50px;
+          font-size: 18px;
+          line-height: 50px;
+          text-align: center;
+          text-decoration: none;
+          padding: 0; }
+      .wrapper .in .box_frame .box_other {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 5px 0; }
+        .wrapper .in .box_frame .box_other .img_o {
+          text-align: center; }
+        .wrapper .in .box_frame .box_other .text_o {
+          width: 870px;
+          margin: 20px auto 0; }
+          .wrapper .in .box_frame .box_other .text_o p {
+            font-size: 16px;
+            line-height: 25px;
+            font-weight: 500;
+            color: #494848;
+            letter-spacing: 2px;
+            word-wrap: break-word;
+            word-break: break-all; }
+
+footer {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left; }
+  footer .frame-contact {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-image: url(../image/footer-bg.jpg), url(../image/footer-bg-extend.jpg);
+    background-position: center top, center top;
+    background-size: 2000px 138px,100% 138px;
+    background-repeat: no-repeat, repeat-x;
+    border-top: 8px solid #fff200;
+    text-align: center; }
+    footer .frame-contact .company {
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: 500;
+      color: #fbfdfb;
+      position: absolute;
+      width: 100%;
+      height: 25px;
+      bottom: 50%;
+      right: 0;
+      margin-right: 0;
+      margin-bottom: -10px; }
+
+@media screen and (max-width: 960px) {
+  .fancybox-inner {
+    width: 100% !important; }
+  .fancybox-wrap {
+    width: 100% !important;
+    left: 0 !important; }
+  .lightbox_l {
+    width: 96% !important; }
+  header#header #info-menu .center {
+    padding-top: 12px;
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px; }
+    header#header #info-menu .center .logo {
+      left: 0;
+      position: absolute;
+      top: 15px; }
+    header#header #info-menu .center .index_banner {
+      position: absolute;
+      width: 90px;
+      height: 51px;
+      top: 20px;
+      right: 150px;
+      margin-right: 0;
+      margin-top: 0;
+      overflow: hidden; }
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #eef6ee;
+    min-height: auto; }
+    .wrapper .in {
+      width: 100%;
+      margin: 0 auto; }
+      .wrapper .in .box_frame {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+        border: 1px solid #00a94f;
+        padding: 25px 40px;
+        background: #fff;
+        margin-bottom: 25px; }
+        .wrapper .in .box_frame .main_logo {
+          position: relative;
+          width: 100%;
+          height: 85px;
+          float: left;
+          text-align: center; }
+          .wrapper .in .box_frame .main_logo img {
+            vertical-align: middle; }
+        .wrapper .in .box_frame .box_title {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          border: 1px solid #00a94f;
+          border-radius: 6px;
+          margin-bottom: 38px; }
+          .wrapper .in .box_frame .box_title .title {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            float: left;
+            border-radius: 6px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            padding: 10px 25px;
+            background: #f2fcf2;
+            background: -moz-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: -webkit-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: -webkit-gradient(linear, left top, left bottom, from(#f2fcf2), to(#daebde));
+            background: -o-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: linear-gradient(to bottom, #f2fcf2 0%, #daebde 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fcf2', endColorstr='#daebde',GradientType=0 ); }
+            .wrapper .in .box_frame .box_title .title h1 {
+              font-size: 18px;
+              line-height: 30px;
+              font-weight: 600;
+              color: #00a94f; }
+          .wrapper .in .box_frame .box_title .order_t {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 0px 25px; }
+            .wrapper .in .box_frame .box_title .order_t p {
+              font-size: 17px;
+              line-height: 45px;
+              font-weight: normal;
+              color: #333333; }
+              .wrapper .in .box_frame .box_title .order_t p span {
+                font-size: 18px;
+                padding-left: 15px;
+                font-weight: 500; }
+            .wrapper .in .box_frame .box_title .order_t .img {
+              text-align: center;
+              padding: 20px 0; }
+          .wrapper .in .box_frame .box_title .card_t {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 30px 25px 0; }
+            .wrapper .in .box_frame .box_title .card_t .box_input {
+              position: relative;
+              width: 100%;
+              height: auto;
+              float: left;
+              padding: 0 0 25px; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .label_title {
+                position: relative;
+                width: 100px;
+                height: auto;
+                float: left;
+                font-size: 17px;
+                line-height: 40px;
+                font-weight: normal;
+                color: #333333; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid100 {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                float: left;
+                float: none; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label {
+                  position: relative;
+                  display: inline-block; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label .uniform-input {
+                    width: 250px;
+                    color: #313131;
+                    height: 40px;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 10px;
+                    text-align: left;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :focus, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :active {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 {
+                position: relative;
+                width: 80%;
+                height: 40px;
+                float: left; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.item__box {
+                  width: 25%;
+                  float: left; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label {
+                  position: relative;
+                  display: inline-block;
+                  width: 100%; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label .uniform-input {
+                    width: 82%;
+                    color: #313131;
+                    height: 40px;
+                    background: #f5f5f6;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 10px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :focus {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style {
+                  width: 30%;
+                  display: inline-block; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style select {
+                    width: 100%;
+                    height: 40px;
+                    color: #313131;
+                    position: relative;
+                    display: inline-block;
+                    background: #f5f5f6;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333;
+                    text-align: center;
+                    padding: 0 10px; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check {
+                  position: relative;
+                  display: inline-block;
+                  width: 40%; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check .uniform-input {
+                    width: 100%;
+                    color: #313131;
+                    height: 40px;
+                    background: #f5f5f6;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 10px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333;
+                    margin-right: 20px; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check::after {
+                    content: " "; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :focus {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year {
+                  display: inline-block;
+                  font-size: 14px;
+                  line-height: 40px;
+                  font-weight: normal;
+                  color: #575656; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year span {
+                    padding-left: 10px; }
+            .wrapper .in .box_frame .box_title .card_t .card {
+              display: none; }
+        .wrapper .in .box_frame .t_align_center {
+          text-align: center;
+          margin-bottom: 31px; }
+          .wrapper .in .box_frame .t_align_center .btn_l {
+            display: inline-block;
+            width: 240px;
+            margin-right: 20px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            height: 65px;
+            font-size: 18px;
+            line-height: 65px;
+            text-align: center;
+            text-decoration: none; }
+        .wrapper .in .box_frame .box_other {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          padding: 5px 0; }
+          .wrapper .in .box_frame .box_other .img_o {
+            text-align: center; }
+          .wrapper .in .box_frame .box_other .text_o {
+            width: 100%;
+            margin: 20px auto 0; }
+            .wrapper .in .box_frame .box_other .text_o p {
+              font-size: 18px;
+              line-height: 25px;
+              font-weight: 500;
+              color: #494848;
+              letter-spacing: 2px; }
+  footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left; }
+    footer .frame-contact {
+      position: relative;
+      width: 100%;
+      height: 130px;
+      float: left;
+      background-image: url(../image/footer-bg.jpg), url(../image/footer-bg-extend.jpg);
+      background-position: center top, center top;
+      background-size: 2000px 138px,100% 138px;
+      background-repeat: no-repeat, repeat-x;
+      border-top: 8px solid #fff200;
+      text-align: center; }
+      footer .frame-contact .company {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 500;
+        color: #fbfdfb;
+        position: absolute;
+        width: 100%;
+        height: 25px;
+        bottom: 50%;
+        right: 0;
+        margin-right: 0;
+        margin-bottom: -10px; } }
+
+@media screen and (max-width: 715px) {
+  .content_lightbox {
+    padding: 15px 5px 5px 5px; }
+  .input_num3 {
+    display: block; }
+  header#header #info-menu .center {
+    padding-top: 12px;
+    height: 0;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 10%; }
+    header#header #info-menu .center .logo {
+      left: 5px;
+      position: absolute;
+      top: 30%;
+      width: 40%; }
+      header#header #info-menu .center .logo img {
+        width: 100%; }
+    header#header #info-menu .center .index_banner {
+      position: absolute;
+      width: 22%;
+      height: auto;
+      top: 15px;
+      right: 24%;
+      margin-right: 0;
+      margin-top: 0;
+      overflow: hidden; }
+      header#header #info-menu .center .index_banner img {
+        width: 100%; }
+    header#header #info-menu .center .index_banner_text {
+      position: absolute;
+      width: 20%;
+      height: auto;
+      top: 35%;
+      right: 0;
+      margin-right: 0;
+      margin-top: 0; }
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #eef6ee;
+    min-height: auto; }
+    .wrapper .in {
+      width: 100%;
+      margin: 0 auto; }
+      .wrapper .in .box_frame {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+        border: 1px solid #00a94f;
+        padding: 25px 10px;
+        background: #fff;
+        margin-bottom: 25px; }
+        .wrapper .in .box_frame .main_logo {
+          position: relative;
+          width: 100%;
+          height: 85px;
+          float: left;
+          text-align: center; }
+          .wrapper .in .box_frame .main_logo img {
+            vertical-align: middle;
+            max-width: 100%; }
+        .wrapper .in .box_frame .box_title {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          border: 1px solid #00a94f;
+          border-radius: 6px;
+          margin-bottom: 20px; }
+          .wrapper .in .box_frame .box_title .title {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            border-radius: 6px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            padding: 10px 10px;
+            background: #f2fcf2;
+            background: -moz-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: -webkit-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: -webkit-gradient(linear, left top, left bottom, from(#f2fcf2), to(#daebde));
+            background: -o-linear-gradient(top, #f2fcf2 0%, #daebde 100%);
+            background: linear-gradient(to bottom, #f2fcf2 0%, #daebde 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fcf2', endColorstr='#daebde',GradientType=0 ); }
+            .wrapper .in .box_frame .box_title .title h1 {
+              font-size: 28px;
+              line-height: 30px;
+              font-weight: 600;
+              color: #00a94f; }
+          .wrapper .in .box_frame .box_title .order_t {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 10px 10px; }
+            .wrapper .in .box_frame .box_title .order_t p {
+              font-size: 24px;
+              line-height: 40px;
+              font-weight: normal;
+              color: #333333; }
+              .wrapper .in .box_frame .box_title .order_t p span {
+                font-size: 20px;
+                padding-left: 0;
+                font-weight: 500;
+                display: block; }
+            .wrapper .in .box_frame .box_title .order_t .img {
+              text-align: center;
+              padding: 20px 0; }
+              .wrapper .in .box_frame .box_title .order_t .img img {
+                max-width: 100%; }
+          .wrapper .in .box_frame .box_title .card_t {
+            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 10px 10px 30px;
+            margin-bottom: 40px; }
+            .wrapper .in .box_frame .box_title .card_t .box_input {
+              position: relative;
+              width: 100%;
+              height: auto;
+              float: left;
+              padding: 5px 0 25px; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .label_title {
+                position: relative;
+                width: 100%;
+                height: auto;
+                float: left;
+                font-size: 24px;
+                line-height: 40px;
+                font-weight: normal;
+                color: #333333; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid100 {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                float: left;
+                margin-bottom: 25px;
+                float: none; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label {
+                  position: relative;
+                  display: inline-block;
+                  float: left;
+                  width: 100%; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label .uniform-input {
+                    width: 100%;
+                    color: #313131;
+                    height: 40px;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 10px;
+                    text-align: left;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :focus, .wrapper .in .box_frame .box_title .card_t .box_input .grid100 label :active {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+              .wrapper .in .box_frame .box_title .card_t .box_input .grid80 {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                float: left; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.item__box {
+                  width: 25%;
+                  float: left; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label {
+                  position: relative;
+                  display: inline-block;
+                  width: 100%; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label .uniform-input {
+                    width: 78%;
+                    color: #313131;
+                    height: 40px;
+                    background: #f5f5f6;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 2px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label::after {
+                    content: "-";
+                    color: #ccc; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label :focus {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style {
+                  width: 46%;
+                  display: inline-block; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 .select_style select {
+                    width: 100%;
+                    height: 40px;
+                    color: #313131;
+                    position: relative;
+                    display: inline-block;
+                    background: #f5f5f6;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333;
+                    text-align: center;
+                    padding: 0 10px; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check {
+                  position: relative;
+                  display: inline-block;
+                  width: 50%; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check .uniform-input {
+                    width: 100%;
+                    color: #313131;
+                    height: 40px;
+                    background: #f5f5f6;
+                    border: solid 1px #c0c0c0;
+                    padding: 0px 2px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-weight: normal;
+                    color: #333333;
+                    margin-right: 20px; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check::after {
+                    content: " "; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :hover, .wrapper .in .box_frame .box_title .card_t .box_input .grid80 label.check :focus {
+                    opacity: .8;
+                    border: 1px solid #00a94f;
+                    background: #f5f5f6; }
+                .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year {
+                  display: inline-block;
+                  font-size: 14px;
+                  line-height: 25px;
+                  font-weight: normal;
+                  color: #575656; }
+                  .wrapper .in .box_frame .box_title .card_t .box_input .grid80 p.card_year span {
+                    padding-left: 10px; }
+            .wrapper .in .box_frame .box_title .card_t .card {
+              display: none; }
+        .wrapper .in .box_frame .t_align_center {
+          text-align: center;
+          margin-bottom: 31px; }
+          .wrapper .in .box_frame .t_align_center .btn_l {
+            display: inline-block;
+            width: 40%;
+            margin-right: 2%;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            height: 65px;
+            font-size: 18px;
+            line-height: 65px;
+            text-align: center;
+            text-decoration: none; }
+        .wrapper .in .box_frame .box_other {
+          position: relative;
+          width: 100%;
+          height: auto;
+          float: left;
+          padding: 5px 0; }
+          .wrapper .in .box_frame .box_other .img_o {
+            text-align: center; }
+            .wrapper .in .box_frame .box_other .img_o img {
+              width: 30%;
+              max-width: 100%; }
+          .wrapper .in .box_frame .box_other .text_o {
+            width: 100%;
+            margin: 20px auto 0; }
+            .wrapper .in .box_frame .box_other .text_o p {
+              font-size: 18px;
+              line-height: 25px;
+              font-weight: 500;
+              color: #494848;
+              letter-spacing: 2px; }
+  footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left; }
+    footer .frame-contact {
+      position: relative;
+      width: 100%;
+      height: 130px;
+      float: left;
+      background-image: url(../image/footer-bg.jpg), url(../image/footer-bg-extend.jpg);
+      background-position: center top, center top;
+      background-size: 2000px 138px,100% 138px;
+      background-repeat: no-repeat, repeat-x;
+      border-top: 8px solid #fff200;
+      text-align: center; }
+      footer .frame-contact .company {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 500;
+        color: #fbfdfb;
+        position: absolute;
+        width: 100%;
+        height: 25px;
+        bottom: 50%;
+        right: 0;
+        margin-right: 0;
+        margin-bottom: -10px; } }
+
+@media screen and (max-width: 480px) {
+  #send_codeModal .box_open .t.eng {
+    width: 100%; }
+  .title_lightbox {
+    color: #00a94f;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px; } }
