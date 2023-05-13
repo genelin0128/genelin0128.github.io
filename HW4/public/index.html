@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汽、柴油歷史價格</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="date"],
+        select,
+        input[type="text"],
+        button {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+<form id="prices" action="http://localhost:3000/api" method="post">
+    <label for="priceDate">調價日期</label>
+    <input type="date" id="priceDate" name="priceDate">
+    <label for="oilType">油品名稱</label>
+    <select id="oilType" name="oilType">
+        <option value="92 無鉛汽油">92 無鉛汽油</option>
+        <option value="95 無鉛汽油">95 無鉛汽油</option>
+        <option value="98 無鉛汽油">98 無鉛汽油</option>
+        <option value="超級/高級柴油">超級/高級柴油</option>
+    </select>
+    <label for="price">價格</label>
+    <input type="text" id="price" name="price">
+    <button type="submit">Submit</button>
+</form>
+
+<div id="app">
+    <button v-on:click="handleClick">顯示資料</button>
+    <table>
+        <thead>
+        <tr>
+            <th>調價日期</th>
+            <th>油品名稱</th>
+            <th>價格</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="item in data">
+            <td>{{ item.priceDate }}</td>
+            <td>{{ item.oilType }}</td>
+            <td>{{ item.price }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    const app = Vue.createApp({
+        data() {
+            return {
+                data: []
+            };
+        },
+        methods: {
+            async handleClick() {
+                console.log("data");
+
+                const url = "http://localhost:3000/api"; // 資料傳送到的 URL
+                try {
+                    const response = await fetch(url, {
+                        method: 'GET',
+                    });
+                    const res_data = await response.json();
+                    this.data = res_data;
+                    console.log("成功", res_data);
+                } catch (error) {
+                    console.log("錯誤", error);
+                }
+            }
+        }
+    });
+    app.mount('#app');
+</script>
+<script>
+    const form = document.getElementById('prices');
+    form.addEventListener('submit', handleSubmit);
+    async function handleSubmit(event) {
+        event.preventDefault(); // 防止表單提交導致頁面重新載入
+
+        // 將表單轉成 JSON
+        const formData = new FormData(form); // 取得表單資料
+        // 將資料轉成 JSON
+        const jsonData = {};
+        for (const [key, value] of formData.entries()) {
+            jsonData[key] = value;
+        }
+        const jsonString = JSON.stringify(jsonData);
+        console.log(jsonString);
+
+        // 非同步存取
+        const url = "http://localhost:3000/api"; // 資料傳送到的 URL
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: jsonString,
+            });
+            const data = await response.json();
+
+            // 在這裡處理回應資料，例如顯示成功訊息或更新頁面內容
+            console.log("成功", data);
+
+        } catch (error) {
+            // 在這裡處理錯誤，例如顯示錯誤訊息或者回滾操作
+            console.log("錯誤", error);
+        }
+    }
+</script>
+</body>
+</html>
